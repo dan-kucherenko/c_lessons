@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="OddballOperators.h">
+    <ClCompile Include="AbsOfSin.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
