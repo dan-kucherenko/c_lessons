@@ -18,5 +18,8 @@
     <ClCompile Include="PointerTests.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Swap.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

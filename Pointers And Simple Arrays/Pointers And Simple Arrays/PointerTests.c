@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "Swap.h"
 #define SIZE  5
 int main(void) {
 	int grades[SIZE] = { 75,12,94,29,42 };
@@ -17,4 +18,8 @@ int main(void) {
 
 	printf("Sum is at: %p or  %lu and is %lf\n", ptrToSum, ptrToSum, *ptrToSum); //points to a decimal it the var contains
 	printf("Grades are at %lu to %lu\n", grades, grades + 5);
+
+	int i = 2, j = 3;
+	swap(&i, &j);
+	printf("%d, %d\t", i, j);
 }
